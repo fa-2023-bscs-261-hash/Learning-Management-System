@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Watch Video</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">HMAS</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search courses..." maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="images/pic-1.jpg" class="image" alt="">
+         <h3 class="name">Muhammad Yousaf</h3>
+         <p class="role">Student</p>
+         <a href="profile.html" class="btn">View Profile</a>
+         <div class="flex-btn">
+            <a href="login.html" class="option-btn">Login</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+   <div class="profile">
+      <img src="images/pic-1.jpg" class="image" alt="">
+      <h3 class="name">Muhammad Yousaf</h3>
+      <p class="role">Student</p>
+      <a href="profile.html" class="btn">View Profile</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="about.html"><i class="fas fa-question"></i><span>About</span></a>
+      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>Courses</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Teachers</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact Us</span></a>
+   </nav>
+
+</div>
+
+<section class="watch-video">
+
+   <div class="video-container">
+      <div class="video">
+         <video src="images/vid-1.mp4" controls poster="images/post-1-1.png" id="video"></video>
+      </div>
+      <h3 class="title">Complete HTML Tutorial (Part 01)</h3>
+      <div class="info">
+         <p class="date"><i class="fas fa-calendar"></i><span>15-01-2025</span></p>
+         <p class="date"><i class="fas fa-heart"></i><span>44 likes</span></p>
+      </div>
+      <div class="tutor">
+         <img src="images/pic-2.jpg" alt="">
+         <div>
+            <h3>Sarah Jenkins</h3>
+            <span>Web Developer</span>
+         </div>
+      </div>
+      <form action="" method="post" class="flex">
+         <a href="playlist.html" class="inline-btn">View Playlist</a>
+         <button><i class="far fa-heart"></i><span>Like</span></button>
+      </form>
+      <p class="description">
+         In this introductory video, we dive into the fundamentals of HTML5. We'll cover the basic document structure, semantic tags, and how to set up your development environment using VS Code. By the end of this lesson, you will have written your very first webpage and understood the core concept of elements and attributes.
+      </p>
+   </div>
+
+</section>
+
+<section class="comments">
+
+   <h1 class="heading">5 Comments</h1>
+
+   <form action="" class="add-comment">
+      <h3>Add Comment</h3>
+      <textarea name="comment_box" placeholder="Enter your comment" required maxlength="1000" cols="30" rows="10"></textarea>
+      <input type="submit" value="Add Comment" class="inline-btn" name="add_comment">
+   </form>
+
+   <h1 class="heading">User Comments</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-1.jpg" alt="">
+            <div>
+               <h3>Muhammad Yousaf</h3>
+               <span>15-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Great start to the series! The explanation of semantic tags was very clear.</div>
+         <form action="" class="flex-btn">
+            <input type="submit" value="Edit Comment" name="edit_comment" class="inline-option-btn">
+            <input type="submit" value="Delete Comment" name="delete_comment" class="inline-delete-btn">
+         </form>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-3.jpg" alt="">
+            <div>
+               <h3>Alex Johnson</h3>
+               <span>16-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Awesome tutorial! Keep going!</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-4.jpg" alt="">
+            <div>
+               <h3>Maria Garcia</h3>
+               <span>16-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Amazing way of teaching! Thank you so much for breaking it down simply.</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-5.jpg" alt="">
+            <div>
+               <h3>James Wilson</h3>
+               <span>17-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Loved it, thanks for the tutorial! When is part 2 coming out?</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-6.jpg" alt="">
+            <div>
+               <h3>Priya Patel</h3>
+               <span>18-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">This is exactly what I have been looking for. Clear and concise.</div>
+      </div>
+
+      <div class="box">
+         <div class="user">
+            <img src="images/pic-7.jpg" alt="">
+            <div>
+               <h3>Tom Baker</h3>
+               <span>19-01-2025</span>
+            </div>
+         </div>
+         <div class="comment-box">Thanks for the tutorial! How do I download the source code files mentioned?</div>
+      </div>
+
+   </div>
+
+</section>
+
+<footer class="footer">
+
+   &copy; Copyright @ 2025 by <span>HMAS</span> | All Rights Reserved!
+
+</footer>
+
+<script src="js/script.js"></script>
+   
+</body>
+</html>
